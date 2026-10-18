@@ -1,0 +1,264 @@
+{
+  "profile": {
+    "name": "盘巍",
+    "role": "计算机专业 · 大四学生",
+    "tagline": "把想法做成产品，把过程写成文章。",
+    "bio": "我是一名计算机专业大四学生，关注 Web 开发、AI 应用与开发者工具。喜欢从真实需求出发做小产品，把复杂流程拆成简单、可靠的交互。最近在实践用 AI 辅助完成需求分析、编码、排错和部署的完整流程。",
+    "avatar": "",
+    "location": "中国",
+    "email": "3125750848@qq.com",
+    "github": "https://github.com/oqun-xp",
+    "socials": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/oqun-xp"
+      },
+      {
+        "label": "邮箱",
+        "url": "mailto:3125750848@qq.com"
+      }
+    ],
+    "education": [
+      {
+        "title": "计算机科学与技术 · 本科",
+        "subtitle": "计算机专业",
+        "period": "2022 – 2026",
+        "description": "主修 Web 开发、数据结构、计算机网络、数据库与软件工程。课程之外持续做个人项目，覆盖前端、浏览器扩展与服务端开发。"
+      }
+    ],
+    "experience": [
+      {
+        "title": "个人项目开发",
+        "subtitle": "独立开发",
+        "period": "2025 – 至今",
+        "description": "独立完成 Chrome 电商图片下载插件、网页总结工具与个人作品集网站，负责需求分析、界面设计、编码、排错和部署。"
+      },
+      {
+        "title": "AI 编程实践",
+        "subtitle": "课程与自学",
+        "period": "2025 – 2026",
+        "description": "使用 Qoder、Cursor 等 AI 编程工具完成多个课程项目，实践 PRD、技术设计、AGENTS 约束与分步迭代的开发流程。"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "id": "sk-01",
+      "category": "前端",
+      "name": "React",
+      "level": 88
+    },
+    {
+      "id": "sk-02",
+      "category": "前端",
+      "name": "TypeScript",
+      "level": 82
+    },
+    {
+      "id": "sk-03",
+      "category": "前端",
+      "name": "Tailwind CSS",
+      "level": 85
+    },
+    {
+      "id": "sk-04",
+      "category": "前端",
+      "name": "HTML / CSS",
+      "level": 90
+    },
+    {
+      "id": "sk-05",
+      "category": "后端",
+      "name": "Node.js",
+      "level": 78
+    },
+    {
+      "id": "sk-06",
+      "category": "后端",
+      "name": "Python",
+      "level": 80
+    },
+    {
+      "id": "sk-07",
+      "category": "后端",
+      "name": "REST API",
+      "level": 76
+    },
+    {
+      "id": "sk-08",
+      "category": "后端",
+      "name": "Serverless",
+      "level": 72
+    },
+    {
+      "id": "sk-09",
+      "category": "工具",
+      "name": "Git / GitHub",
+      "level": 86
+    },
+    {
+      "id": "sk-10",
+      "category": "工具",
+      "name": "Chrome Extension",
+      "level": 86
+    },
+    {
+      "id": "sk-11",
+      "category": "工具",
+      "name": "Vite",
+      "level": 80
+    },
+    {
+      "id": "sk-12",
+      "category": "工具",
+      "name": "Vercel",
+      "level": 78
+    },
+    {
+      "id": "sk-13",
+      "category": "设计",
+      "name": "UI / UX",
+      "level": 70
+    },
+    {
+      "id": "sk-14",
+      "category": "设计",
+      "name": "Figma",
+      "level": 65
+    }
+  ],
+  "projects": [
+    {
+      "id": "p-imagegrab",
+      "title": "图提取 ImageGrab",
+      "summary": "Chrome 电商图片提取下载插件，一键提取详情页图片并批量转为 PNG。",
+      "description": "## 项目简介\n\n图提取 ImageGrab 是一个 Chrome Manifest V3 扩展，用于在电商商品详情页批量提取图片并下载为 PNG。支持淘宝 / 天猫、京东、拼多多商家版。\n\n## 核心功能\n\n- 在详情页右下角注入「获取图片」悬浮按钮\n- 扫描 `img`、`srcset`、`data-src`、背景图与懒加载图片\n- 过滤图标、logo、占位图与小于 150×150 的图片\n- 新标签页集中预览，支持全选、反选与逐张勾选\n- 批量转换为 PNG，按 `商品图_001.png` 规则命名\n- 下载进度与失败反馈\n\n## 技术要点\n\n- **Manifest V3**：内容脚本负责注入与提取，Service Worker 负责画廊与下载\n- **跨域处理**：通过 `host_permissions` 与 Service Worker `fetch + OffscreenCanvas` 兜底\n- **真实页面验证**：在真实京东商品页提取到 16 张有效图片，并将 1350×1350 原图成功转为 PNG\n- **官网**：`docs/` 下的纯静态宣传站，通过 GitHub Pages 发布\n\n## 成果\n\n- 插件源码与使用说明已开源到 GitHub\n- 宣传官网：https://oqun-xp.github.io/imagegrab/\n- 完整经历了需求分析、AI 编程、Bug 排查、Git 推送与 Pages 部署流程",
+      "cover": "aurora",
+      "tags": [
+        "Chrome Extension",
+        "Manifest V3",
+        "JavaScript"
+      ],
+      "link": "https://oqun-xp.github.io/imagegrab/",
+      "repo": "https://github.com/oqun-xp/imagegrab",
+      "featured": true,
+      "date": "2026-10"
+    },
+    {
+      "id": "p-summarizer",
+      "title": "网页总结工具 Web Summarizer",
+      "summary": "输入网址，抓取正文并生成中文摘要的本地网页工具，支持中英文站点。",
+      "description": "## 项目简介\n\n网页总结工具是一个本地运行的网页小工具：输入任意网页地址，自动抓取正文并生成中文摘要，支持中英文页面。\n\n## 核心功能\n\n- 输入 URL，抓取正文并抽取标题、段落与正文\n- 调用 AI 生成中文摘要、要点与关键词\n- 支持英文网页，输出中文摘要\n- AI 服务不可用时回退到抽取式摘要，保证页面永远有结果\n- 零第三方依赖的 Node.js 静态服务，防目录穿越\n\n## 技术要点\n\n- Node.js 内置 `http` 模块，零依赖\n- 中文站点编码识别（`gb2312` → `gbk`），使用 `TextDecoder` 解码\n- 正文提取优先 `<article>` / `<main>`，剥离脚本、导航与页脚\n- 抓取超时、重定向与失败兜底\n- 原生 HTML / CSS / JS 前端，无 CDN 依赖\n\n## 收获\n\n这个项目让我理解了「抓取 → 清洗 → 摘要 → 展示」的完整数据链路，也练习了在外部服务不稳定时如何设计降级方案。",
+      "cover": "ocean",
+      "tags": [
+        "Node.js",
+        "AI",
+        "原生 JavaScript"
+      ],
+      "link": "",
+      "repo": "",
+      "featured": true,
+      "date": "2026-10"
+    },
+    {
+      "id": "p-portfolio",
+      "title": "个人作品集 Panwei Portfolio",
+      "summary": "深色星空主题的个人网站，带后台管理与 Serverless API，部署在 Vercel。",
+      "description": "## 项目简介\n\n这是你正在浏览的个人作品集网站。目标不是做一个静态简历，而是做一个可以长期维护的内容系统：前台展示，后台编辑，数据持久化。\n\n## 核心功能\n\n- 深色星空主题，Canvas 粒子背景，响应式布局\n- 首页展示个人信息、技能、精选项目与最新文章\n- 项目列表 / 详情、博客列表 / 详情\n- 独立后台：登录、仪表盘、个人信息、技能、项目、博客、留言、站点设置\n- Markdown 编辑器与实时预览\n- 联系表单与后台留言管理\n\n## 技术架构\n\n- **前端**：React 18 + TypeScript + Vite + Tailwind CSS + React Router\n- **后端**：Vercel Serverless Functions\n- **持久化**：GitHub 私有仓库 `personal-site-data/content.json`\n- **鉴权**：HMAC-SHA256 签名 token，12 小时过期\n- **部署**：Vercel\n\n## 设计要点\n\n- 背景 `#05070D`，强调色可在后台配置\n- 星空粒子在移动端自动降采样，尊重减少动效设置\n- 所有写接口服务端校验，token 不落库、密码不进前端\n- 本地开发无 token 时自动回退到 `data/content.json`\n\n## 后续计划\n\n图片上传、文章搜索、标签筛选、RSS 与访问统计。",
+      "cover": "starry",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Vercel"
+      ],
+      "link": "",
+      "repo": "https://github.com/oqun-xp",
+      "featured": true,
+      "date": "2026-10"
+    },
+    {
+      "id": "p-ai-zero",
+      "title": "AI 零代码作品集",
+      "summary": "使用 AI 零代码平台完成的文字水印工具与英文词汇学习卡片。",
+      "description": "## 项目简介\n\n使用 AI 零代码平台（秒哒）完成的两个网页作品：文字水印工具与词汇学习卡片。通过自然语言描述需求，平台自动生成可发布的网页应用。\n\n## 作品一：文字水印工具\n\n- 输入文字，实时生成水印预览\n- 支持平铺、旋转、透明度与颜色调整\n- 一键发布为在线页面\n- 用于给图片或素材快速添加版权标识\n\n## 作品二：英文阅读词汇卡片\n\n- 输入英文网页或段落，提取重点词汇\n- 生成词汇卡片与学习记录\n- 支持翻译与复习\n- 适合英语阅读与单词积累\n\n## 收获\n\n零代码平台让我把注意力放在需求拆解和交互设计上，而不是环境配置。提示词写得越具体，生成结果越接近预期；迭代时每次只改一个点，更容易定位问题。",
+      "cover": "violet",
+      "tags": [
+        "AI 零代码",
+        "产品设计",
+        "提示词"
+      ],
+      "link": "",
+      "repo": "",
+      "featured": false,
+      "date": "2026-10"
+    }
+  ],
+  "posts": [
+    {
+      "id": "b-imagegrab",
+      "slug": "build-imagegrab",
+      "title": "从 0 到 1 开发 Chrome 电商图片下载插件",
+      "summary": "记录图提取 ImageGrab 的需求拆解、图片提取、过滤策略、跨域 PNG 转换与真实页面测试。",
+      "content": "## 为什么要做这个插件\n\n做电商素材整理时，最麻烦的不是下载，而是**找全**。商品主图、细节图、详情长图分散在轮播、懒加载和 CSS 背景里，逐张右键保存既容易遗漏，也会把图标和占位图一起存下来。\n\n图提取 ImageGrab 的目标很明确：在商品详情页点一次按钮，把页面里所有有价值的商品图集中到一个画廊里，勾选后统一转成 PNG 下载。\n\n## 核心设计\n\n### 1. 多来源扫描\n\n内容脚本同时扫描以下来源：\n\n- `img` 的 `src` 与 `currentSrc`\n- `srcset` 中的候选地址\n- `data-src`、`data-lazy-src`、`data-original` 等懒加载属性\n- 内联样式与样式表中的 `background-image`\n\n```js\nconst candidates = new Map();\n\nfunction addCandidate(url, width, height) {\n  if (!url || candidates.has(url)) return;\n  candidates.set(url, { url, width, height });\n}\n```\n\n使用 `Map` 去重，同时保留首次出现顺序。\n\n### 2. 过滤策略\n\n电商页面里混着大量 UI 资源，如果全部展示，画廊会变得非常嘈杂。当前策略是：\n\n- 小于 `150 × 150` 的图片排除\n- 长宽比超过 `6:1` 的装饰条排除\n- URL 中包含 `logo`、`icon`、`sprite`、`placeholder` 等关键词的排除\n- 加载失败的图片排除\n\n在真实京东商品页测试时，这套规则把 43 张候选图收敛到了 16 张，主图与详情图都被保留下来。\n\n### 3. PNG 转换\n\n画廊页优先直接 `fetch` 图片并绘制到 Canvas：\n\n```js\nconst response = await fetch(url, { credentials: 'omit' });\nconst blob = await response.blob();\nconst bitmap = await createImageBitmap(blob);\nconst canvas = document.createElement('canvas');\ncanvas.width = bitmap.width;\ncanvas.height = bitmap.height;\ncanvas.getContext('2d').drawImage(bitmap, 0, 0);\n```\n\n如果画廊页跨域受限，就把 URL 交给 Service Worker，用 `OffscreenCanvas` 再尝试一次。最终通过 `chrome.downloads.download` 保存为 `商品图_001.png` 这样的文件名。\n\n## 踩过的坑\n\n### `naturalWidth` 不等于真实像素\n\n带 `srcset` 的图片，`naturalWidth` 会按像素密度折算。一张 760px 的 2x 图可能被读成 380px，导致尺寸展示错误。解决方案是：带 `srcset` 的候选图不直接使用 DOM 尺寸，而是重新创建 `Image` 测量真实像素。\n\n### 跨域图片与权限\n\n图片常常挂在 `360buyimg.com`、`alicdn.com` 等 CDN 上，必须把对应域名加入 `host_permissions`，Canvas 才能读取像素。\n\n### 下载并发\n\n批量下载时如果一次性并发几十张图片，内存和网络都会吃紧。现在改为顺序处理，并在界面上显示 `7/10` 的进度和当前文件名，失败项会汇总提示。\n\n## 总结\n\n这个项目让我完整走了一遍 Chrome 扩展的开发流程：Manifest V3、内容脚本、Service Worker、跨域处理、下载 API 和画廊 UI。相比“能跑”，更难的是在真实页面里把噪音过滤掉，让用户一眼看到有用的图片。",
+      "tags": [
+        "Chrome Extension",
+        "工程实践",
+        "JavaScript"
+      ],
+      "date": "2026-10-18",
+      "cover": ""
+    },
+    {
+      "id": "b-deploy",
+      "slug": "deploy-static-site",
+      "title": "GitHub Pages + Vercel：两种免费部署方式实践",
+      "summary": "对比 GitHub Pages 与 Vercel 的适用场景，记录静态官网和个人作品集的部署流程。",
+      "content": "## 为什么需要部署\n\n本地开发只能自己看到。部署之后，简历、作业和社交分享才能有一个稳定的访问入口。静态网站常见的免费方案有 GitHub Pages、Vercel、Cloudflare Pages 等。\n\n这篇文章记录我在课程作业中使用 GitHub Pages 与 Vercel 的实践。\n\n## GitHub Pages\n\nGitHub Pages 适合纯静态站点。配置步骤：\n\n1. 把代码推送到 GitHub 仓库。\n2. 打开仓库 **Settings → Pages**。\n3. Source 选择 **Deploy from a branch**。\n4. 分支选 `main`，目录选 `/docs` 或 `/`。\n5. 等待 Actions 构建完成，访问 `https://用户名.github.io/仓库名/`。\n\n我的 Chrome 插件官网就放在 `docs/` 目录，使用 `main` + `/docs` 发布：\n\n```text\nhttps://oqun-xp.github.io/imagegrab/\n```\n\nGitHub Pages 的优点是免费、稳定、和仓库天然集成；缺点是只能托管静态资源，没有服务端接口。\n\n## Vercel\n\nVercel 更适合需要 API 的项目。导入 GitHub 仓库后，它会自动识别 Vite、Next.js 等框架，分配 `*.vercel.app` 域名。\n\n对于 Vite + Serverless Functions 的项目，关键在于：\n\n- 前端构建产物输出到 `dist/`\n- `api/` 目录下的函数自动成为 `/api/*`\n- 用 `vercel.json` 配置 SPA 重写\n\n```json\n{\n  \"rewrites\": [\n    { \"source\": \"/((?!api/).*)\", \"destination\": \"/index.html\" }\n  ]\n}\n```\n\n这条规则保证刷新 `/blog/xxx` 时仍然返回 `index.html`，由前端路由接管。\n\n## 环境变量\n\n部署带后台的项目时，不要把密钥写进代码。Vercel 的环境变量只在服务端可用：\n\n- `ADMIN_USERNAME` / `ADMIN_PASSWORD`\n- `AUTH_SECRET`\n- `GITHUB_DATA_TOKEN`\n\n前端只能拿到登录后的短期 token，拿不到这些长期密钥。\n\n## 两种方案怎么选\n\n| 需求 | 推荐 |\n|---|---|\n| 纯静态博客、文档 | GitHub Pages |\n| 需要 API、登录、数据库 | Vercel |\n| 需要全球 CDN 与 Cloudflare 生态 | Cloudflare Pages |\n\n我的个人作品集需要后台保存数据，所以选择 Vercel；插件官网只需要展示，继续使用 GitHub Pages。两者并不冲突。",
+      "tags": [
+        "部署",
+        "Vercel",
+        "GitHub Pages"
+      ],
+      "date": "2026-10-15",
+      "cover": ""
+    },
+    {
+      "id": "b-ai-workflow",
+      "slug": "ai-dev-workflow",
+      "title": "用 AI 辅助开发：我的三步工作流",
+      "summary": "从 PRD、项目骨架到逐个功能回归，分享一套可复用的 AI 编程流程与提示词写法。",
+      "content": "## 为什么需要流程\n\nAI 可以很快写出代码，但如果没有约束，很容易出现“功能越加越多、结构越来越乱、改一处坏三处”的情况。我的做法是把开发拆成三步：先写文档，再搭骨架，最后逐个功能收口。\n\n## 第一步：把需求写成 PRD\n\nPRD 不需要很长，但必须回答几个问题：\n\n- 这个产品解决什么问题？\n- 目标用户是谁？\n- 哪些功能是必须的，哪些可以以后再做？\n- 数据存在哪里？\n- 怎么判断做完了？\n\n例如个人作品集项目，MVP 只保留：个人信息、技能、项目、博客、联系表单，以及一个能修改这些内容的后台。评论、搜索、多用户都不在首期范围。\n\n## 第二步：让 AI 生成骨架\n\n骨架阶段只要求“能跑”：\n\n1. 初始化 Vite + React + TypeScript。\n2. 配置 Tailwind 和路由。\n3. 建好前台与后台的目录。\n4. 首页能显示占位内容。\n\n这个阶段不追求样式细节，也不急着接后端。先让项目能启动，后面每加一个功能都能立即验证。\n\n## 第三步：逐个功能实现与回归\n\n每完成一个功能，就做一次完整检查：\n\n- 页面是否能打开？\n- 控制台有没有报错？\n- 移动端是否溢出？\n- 数据保存后刷新是否还在？\n\n我通常会给 AI 一个明确的验收清单，而不是只说“继续优化”：\n\n```text\n请检查后台保存流程：\n1. 未登录访问 /admin 是否跳转登录页\n2. 错误密码是否提示\n3. 修改姓名后保存，刷新首页是否生效\n4. 保存失败是否保留表单内容\n```\n\n## 提示词的小技巧\n\n好的提示词通常包含三部分：\n\n1. **角色**：你是一名熟悉 React 与 Serverless 的前端工程师。\n2. **上下文**：项目使用 Vite、Tailwind、Vercel Functions，数据存储在 GitHub 私有仓库。\n3. **验收标准**：构建通过、无控制台报错、375px 无横向滚动。\n\n比起“帮我做一个个人网站”，这样的描述能让 AI 少走很多弯路。\n\n## 总结\n\nAI 不是替代思考，而是放大思考。文档越清楚，AI 的输出越稳定；验收越具体，返工越少。把流程固定下来之后，开发一个完整的小项目会轻松很多。",
+      "tags": [
+        "AI",
+        "开发流程",
+        "提示词"
+      ],
+      "date": "2026-10-10",
+      "cover": ""
+    }
+  ],
+  "settings": {
+    "siteTitle": "盘巍 · 个人作品集",
+    "accent": "#22D3EE",
+    "footerText": "用代码把想法变成产品。"
+  },
+  "messages": [
+    {
+      "id": "m-01",
+      "name": "李同学",
+      "email": "li@example.com",
+      "content": "你好，看到你的图提取插件很实用，想请教一下背景图提取的实现思路。",
+      "createdAt": "2026-10-17T09:20:00.000Z",
+      "read": false
+    },
+    {
+      "id": "m-02",
+      "name": "王老师",
+      "email": "wang@example.com",
+      "content": "作品集的结构很清晰，建议后续补充项目的过程记录和测试截图。",
+      "createdAt": "2026-10-16T14:05:00.000Z",
+      "read": true
+    }
+  ],
+  "updatedAt": "2026-10-18T08:01:48.218Z"
+}

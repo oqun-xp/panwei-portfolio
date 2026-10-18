@@ -1,0 +1,36 @@
+{
+  "name": "panwei-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "深色星空主题的个人作品集网站，含后台管理与 Vercel Serverless API",
+  "scripts": {
+    "dev": "concurrently -k -n api,web -c cyan,magenta \"node server/api-dev.mjs\" \"vite\"",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "api": "node server/api-dev.mjs"
+  },
+  "dependencies": {
+    "highlight.js": "^11.11.1",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.3",
+    "react-router-dom": "^6.30.0",
+    "rehype-highlight": "^7.0.2",
+    "remark-gfm": "^4.0.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^9.1.2",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7"
+  }
+}
