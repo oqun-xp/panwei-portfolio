@@ -141,7 +141,8 @@ export default function SettingsAdmin() {
                 </div>
               </div>
               <p className="mt-5 text-lg font-bold text-slate-100">
-                你好，我是<span style={{ color: settings.accent }}>盘巍</span>
+                你好，我是
+                <span style={{ color: settings.accent }}>{content.profile.name}</span>
               </p>
               <div className="mt-4 flex gap-2">
                 <span
